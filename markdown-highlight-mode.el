@@ -71,6 +71,6 @@ back-dent the line by `markdown-highlight-indent-offset' spaces.  On reaching co
 
 (define-derived-mode markdown-highlight-mode fundamental-mode
   (setq font-lock-defaults '(markdown-highlight-keywords))
-  (setq mode-name "My mode")
+  (setq mode-name "Markdown highlight mode")
   (set (make-local-variable 'indent-line-function) 'markdown-highlight-indent-line)
 )
